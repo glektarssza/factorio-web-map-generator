@@ -1,0 +1,22 @@
+version: 2
+updates:
+  - directory: /
+    package-ecosystem: github-actions
+    patterns:
+      - '*'
+    target-branch: main
+    rebase-strategy: auto
+    commit-message:
+      include: scope
+      prefix: '[Dependabot] '
+    pull-request-branch-name:
+      separator: /
+    labels:
+      - Dependency
+    assignees:
+      - glektarssza
+    schedule:
+      interval: weekly
+      day: wednesday
+      time: '12:00'
+      timezone: Canada/Mountain
