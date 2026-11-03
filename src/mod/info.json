@@ -1,0 +1,29 @@
+{
+    "name": "gleks-web-map-generator",
+    "title": "G'lek's Web Map Generator",
+    "description": "A Factorio mod which creates a static web map of your world.",
+    "author": "G'lek Tarssza",
+    "version": "0.1.0",
+    "factorio_version": "2.1",
+    "contact": "glek@glektarssza.com",
+    "homepage": "https://github.com/glektarssza/factorio-web-map-generator",
+    "dependencies": [],
+    "package": {
+        "datestamp_format": "yyyy-mm-dd",
+        "sync_portal_details": true,
+        "git_publish_branch": "main",
+        "markdown": {
+            "strip_first_header": true
+        },
+        "no_git_push": true,
+        "no_portal_upload": true,
+        "no_git_tag": true,
+        "prune_gallery": true,
+        "readme": "../../README.md",
+        "scripts": {},
+        "extra": [],
+        "ignore": [],
+        "faq": "../../FAQ.md",
+        "gallery": []
+    }
+}
