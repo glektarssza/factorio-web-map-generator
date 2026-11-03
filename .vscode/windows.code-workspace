@@ -34,6 +34,13 @@
         "bashIde.shfmt.path": "<$env:HOME>/scoop/apps/shfmt/current/shfmt.exe",
         "bashIde.shfmt.simplifyCode": true,
         "bashIde.shfmt.spaceRedirects": true,
+        "factorio.docs.generateDocs": true,
+        "factorio.package.movedToCommitMessage": "Release version v$VERSION.",
+        "factorio.package.preparingCommitMessage": "Prepare for releasing version v$VERSION.",
+        "factorio.package.tagMessage": "v$VERSION",
+        "factorio.package.tagName": "v$VERSION",
+        "factorio.package.zipLocation": "outside",
+        "factorio.workspace.manageLibraryDataLinks": true,
         "prettier.configPath": ".prettierrc.mjs",
         "prettier.ignorePath": ".prettierignore",
         "shellcheck.enable": false
